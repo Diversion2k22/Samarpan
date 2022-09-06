@@ -42,23 +42,23 @@ Check the [Wireframe](https://www.figma.com/file/qFdwZSrziy4OLva20BxbBD/Samarpan
 # Instructions to follow while contributing to SAMARPAN
 ## Follow proper naming convention
 
-1) Naming convention of the layout files: While creating a layout or a fragment file it should follow the following naming convention:
+1) ***Naming convention of the layout files:***  While creating a layout or a fragment file it should follow the following naming convention:
 					  "type of user(user/NGO)" "__" "what is that page for" "_" "if fragment mention fragment"  
 					   ```for eg user_login_fragment, ngo_dashboard```.
 
-2) Naming convention of the kotlin files: All the files where the backbone of the application would be coded will have a similar naming 
+2) ***Naming convention of the kotlin files:***  All the files where the backbone of the application would be coded will have a similar naming 
 				         convention as the layout
 					 "type of user(user/NGO)" "what is that page for" "if fragment mention fragment"  
 					  ```for eg userLoginFragment, ngoDashboard```
 
-3) Defining views:The variable defining views or used for view binding should follow this convention:
+3) ***Defining views:***  The variable defining views or used for view binding should follow this convention:
                  "type of view" "page it belongs to" "Purpose of the view"  
 		  ```for eg: btnUserSignUp```
 
-4) Theme color: Theme color has been defined inside [colors.xml](https://github.com/Diversion2k22/Samarpan/blob/master/app/src/main/res/values/colors.xml) with proper naming    convention.  
+4) ***Theme color:***  Theme color has been defined inside [colors.xml](https://github.com/Diversion2k22/Samarpan/blob/master/app/src/main/res/values/colors.xml) with proper naming    convention.  
   Use the theme color in the entire application according to the wireframe design provided above.
 
-5) Defining Strings: All the elements inside the xml file under android:text="" should not be harcoded text. Define all the text inside strings.xml
+5) ***Defining Strings:***  All the elements inside the xml file under android:text="" should not be harcoded text. Define all the text inside strings.xml
 		     with proper naming convention:
 		     all the name inside a string elements should be like "type of view""what is the purpose of the view""which activty/fragment the view belongs to"  
          for eg: ```<string name="et_email_userLogin">Email</string>```
