@@ -43,7 +43,7 @@ Check the [Wireframe](https://www.figma.com/file/qFdwZSrziy4OLva20BxbBD/Samarpan
 ## Follow proper naming convention
 
 1) ***Naming convention of the layout files:***  While creating a layout or a fragment file it should follow the following naming convention:
-					  "type of user(user/NGO)" "__" "what is that page for" "_" "if fragment mention fragment"  
+					  "type of user(user/NGO)" "_" "what is that page for" "__" "if fragment mention fragment"  
 					   ```for eg user_login_fragment, ngo_dashboard```.
 
 2) ***Naming convention of the kotlin files:***  All the files where the backbone of the application would be coded will have a similar naming 
@@ -60,7 +60,7 @@ Check the [Wireframe](https://www.figma.com/file/qFdwZSrziy4OLva20BxbBD/Samarpan
 
 5) ***Defining Strings:***  All the elements inside the xml file under android:text="" should not be harcoded text. Define all the text inside strings.xml
 		     with proper naming convention:
-		     all the name inside a string elements should be like "type of view""what is the purpose of the view""which activty/fragment the view belongs to"  
+		     all the name inside a string elements should be like "type of view" "_" "what is the purpose of the view" "__" "which activty/fragment the view belongs to"  
          for eg: ```<string name="et_email_userLogin">Email</string>```
          
 # Guidelines for raising a new issue
